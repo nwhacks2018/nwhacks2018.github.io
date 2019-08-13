@@ -32,27 +32,14 @@ Install the relevant dependencies:
 npm install
 ```
 
-The HTML and CSS source files are in the `src/` directory.
-
-### Building for Development
-
 Build the SCSS and CSS files into a single JS bundle using Webpack:
 ```console
 npm run build
 ```
 
-The built files will be in the `src/dist/` directory. Open up the file `src/index.html` in a browser.
+The built files will be in the `dist/` directory. Re-run the build command anytime the styling is modified.
 
-### Deployment
-
-Once the files are built, they must be manually deployed to the root of the project to be updated when distributed.
-
-After building, run:
-```console
-npm run deploy
-```
-
-To update the `.html` files and `dist/` directory in the root directory. Commit and push these changes to finish deploying.
+View the page by opening the file `index.html` in a browser.
 
 ## The Inspiration and Problem
 Canada ranks among the [most expensive countries](https://crtc.gc.ca/eng/publications/reports/compar/compar2016.pdf) for Mobile Data within the [G7](https://www.cfr.org/backgrounder/group-seven-g7). Mobile data has become unaffordable for most people. 

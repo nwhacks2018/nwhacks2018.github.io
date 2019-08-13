@@ -5,8 +5,7 @@
   "main": "src/res/js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production",
-    "deploy": "rm -rf ./*.html dist/ && cp -r src/*.html src/dist ."
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
