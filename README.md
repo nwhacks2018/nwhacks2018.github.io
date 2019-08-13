@@ -1,12 +1,38 @@
 # WiFind (nwHacks 2018)
 
-## By Luminescence v2 
-WiFind is a crowdsourced open Wifi network platform that allow users to hop across public Wifi networks.
+HTML, CSS, and Bulma website for **WiFind**, an Android application to automanage and autoconnect to crowdsourced public Wi-Fi networks.
+
+View the website here: https://nwhacks2018.github.io
+
+## Software Stack
+
+| Purpose | Technology |
+| --- | --- |
+| Content Development | HTML, CSS |
+| Styling Framework | [Bulma](https://bulma.io/) |
+| Package Manager | [NPM](https://www.npmjs.com/) |
+| Module Bundler | [webpack](https://webpack.js.org/)
 
 ## Setup
 
-Run:
+First, install [NPM](https://www.npmjs.com/)
 
+Clone the repository:
+```console
+git clone https://github.com/nwHacks2018/nwHacks2018.github.io.git
+```
+
+Enter the directory:
+```console
+cd nwHacks2018.github.io/
+```
+
+Install the relevant dependencies:
+```console
+npm install
+```
+
+Build the SCSS and CSS files into a single JS bundle using Webpack:
 ```console
 npm run build
 ```
