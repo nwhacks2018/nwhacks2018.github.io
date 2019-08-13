@@ -2,10 +2,11 @@
   "name": "wifind",
   "version": "1.0.0",
   "description": "## By Luminescence v2 WiFind is a crowdsourced open Wifi network platform that allows users to hop across public Wifi networks.",
-  "main": "src/index.js",
+  "main": "src/res/js/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "deploy": "rm -rf ./*.html dist/ && cp -r src/*.html src/dist ."
   },
   "repository": {
     "type": "git",

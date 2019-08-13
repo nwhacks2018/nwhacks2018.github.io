@@ -15,7 +15,7 @@ View the website here: https://nwhacks2018.github.io
 
 ## Setup
 
-First, install [NPM](https://www.npmjs.com/)
+First, install [NPM](https://www.npmjs.com/).
 
 Clone the repository:
 ```console
@@ -32,12 +32,27 @@ Install the relevant dependencies:
 npm install
 ```
 
+The HTML and CSS source files are in the `src/` directory.
+
+### Building for Development
+
 Build the SCSS and CSS files into a single JS bundle using Webpack:
 ```console
 npm run build
 ```
 
-And open up the file `index.html`.
+The built files will be in the `src/dist/` directory. Open up the file `src/index.html` in a browser.
+
+### Deployment
+
+Once the files are built, they must be manually deployed to the root of the project to be updated when distributed.
+
+After building, run:
+```console
+npm run deploy
+```
+
+To update the `.html` files and `dist/` directory in the root directory. Commit and push these changes to finish deploying.
 
 ## The Inspiration and Problem
 Canada ranks among the [most expensive countries](https://crtc.gc.ca/eng/publications/reports/compar/compar2016.pdf) for Mobile Data within the [G7](https://www.cfr.org/backgrounder/group-seven-g7). Mobile data has become unaffordable for most people. 
