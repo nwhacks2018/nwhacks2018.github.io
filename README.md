@@ -3,6 +3,16 @@
 ## By Luminescence v2 
 WiFind is a crowdsourced open Wifi network platform that allow users to hop across public Wifi networks.
 
+## Setup
+
+Run:
+
+```console
+npm run build
+```
+
+And open up the file `index.html`.
+
 ## The Inspiration and Problem
 Canada ranks among the [most expensive countries](https://crtc.gc.ca/eng/publications/reports/compar/compar2016.pdf) for Mobile Data within the [G7](https://www.cfr.org/backgrounder/group-seven-g7). Mobile data has become unaffordable for most people. 
 

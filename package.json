@@ -1,0 +1,31 @@
+{
+  "name": "wifind",
+  "version": "1.0.0",
+  "description": "## By Luminescence v2 WiFind is a crowdsourced open Wifi network platform that allows users to hop across public Wifi networks.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nwhacks2018/nwhacks2018.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nwhacks2018/nwhacks2018.github.io/issues"
+  },
+  "homepage": "https://github.com/nwhacks2018/nwhacks2018.github.io#readme",
+  "devDependencies": {
+    "bulma": "^0.7.5",
+    "css-loader": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  },
+  "dependencies": {}
+}
