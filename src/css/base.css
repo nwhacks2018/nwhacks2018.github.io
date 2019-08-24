@@ -1,7 +1,11 @@
-* {
+html {
   font-family: 'Lato', sans-serif;
 }
 
 .highlight-text {
   color: #540cc4;
+}
+
+.outline {
+  border: 1px solid red;
 }
