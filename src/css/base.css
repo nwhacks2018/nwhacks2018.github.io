@@ -9,3 +9,15 @@ html {
 .outline {
   border: 1px solid red;
 }
+
+.pt-1 {
+  padding-top: 10px;
+}
+
+.pt-2 {
+  padding-top: 20px;
+}
+
+.pt-3 {
+  padding-top: 40px;
+}
